@@ -1,0 +1,22 @@
+# Disk DescriptorFile
+version=1
+encoding="GBK"
+CID=4ef21b35
+parentCID=ffffffff
+isNativeSnapshot="no"
+createType="vmfs"
+
+# Extent description
+RW 852543 VMFS "EFI-flat.vmdk" 0
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "ide"
+ddb.geometry.cylinders = "845"
+ddb.geometry.heads = "16"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "3bac5d31a470a9349cc32b5e4ef21b35"
+ddb.thinProvisioned = "1"
+ddb.uuid = "60 00 C2 90 fd e1 6b 19-57 a5 50 1d 3b 21 32 f5"
+ddb.virtualHWVersion = "4"
